@@ -1,0 +1,13 @@
+//Parâmetros revisados
+public atirarFlechaRefactory(int flechas, int experiencia){
+    //Variável acertar instanciada e inicializada fora da expressão condicional 
+    boolean acertar;
+    acertar = acertarFlecha();
+
+    if(acertar == true){
+        flechas--;
+        experiencia++;
+    }else{
+        flechas--;
+    }
+}
